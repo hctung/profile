@@ -1,0 +1,151 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+  
+.profile-pic-circle {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  transition: 300ms;
+}
+.card {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 30px 0;
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .profile-pic-circle {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    transition: 300ms;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .profile-pic-circle {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    transition: 300ms;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .profile-pic-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .list-inline i {
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+    transition: 300ms;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+}
+
+body {
+    background: #F7F9FC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100; /* if you want the light version */
+  }
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+h1 {
+    color: #575F7D;
+    font-size: 40px;
+  }
+
+h2 {
+      color: #7ECE90;
+  }
+
+a {
+    color: #575F7D;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+p {
+  margin: 50px;
+}
+  a:hover {
+      color: #ff69b4;
+  }
+  .btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 500ms;
+  }
+
+  .btn-blue:hover {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .card {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline i:hover {
+    color: #000;
+  }
